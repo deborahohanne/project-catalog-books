@@ -1,0 +1,22 @@
+{
+  "name": "project-catalog-books",
+  "version": "1.0.0",
+  "description": "Projeto de Catálogo de Livros para teste da empresa Eldorado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborahohanne/project-catalog-books.git"
+  },
+  "author": "Deborah Ohanne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deborahohanne/project-catalog-books/issues"
+  },
+  "homepage": "https://github.com/deborahohanne/project-catalog-books#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
