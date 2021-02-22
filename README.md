@@ -4,20 +4,29 @@
 ## Sobre
 Este projeto é um teste para o Instituto Eldorado.
 
-## Instalando
+### Como usar
+Este projeto foi desenvolvido em um ambiente configurado com os serviços oferecidos pelo Docker. 
 
-Para instalá-lo em sua máquina faça os comandos a seguir:
+Para usar este projeto em sua máquina execute apenas quatro passos
 
-``` bash
-  git clone https://github.com/deborahohanne/project-catalog-books.git
-  cd project-catalog-books
-  npm install
-  npm start
+> - **Baixe o projeto**
+```cmd
+git clone https://github.com/deborahohanne/project-catalog-books.git
+```
+> - **Monte as imagens**
+```
+docker-compose build
 ```
 
-#### Atenção
+> - **Execute os containers**
+```
+docker-compose up
+```
 
-E depois acesse no seu navegador o endereço: http://localhost:3000
+> - **Acesse a aplicação**
+```
+http://localhost:3000
+```
 
 ## Autor
 Deborah Ohanne

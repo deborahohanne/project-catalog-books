@@ -23,7 +23,12 @@ function openCloseModal(book = '') {
         return modal.style.display = 'none'
     }
 
-    const modalContentHTML = `<p>${book}</p>`
+    const modalContentHTML = 
+        `<h2>Detalhes do Livro</h2>
+        <h3>Título: ${book.bookTitle}</h3>
+        <h3>Sub Título: ${book.bookSubtitle}</h3>
+        <h3>Resumo: ${book.bookAbstract}</h3>
+        <h3>Preço: R$ ${book.bookPrice}</h3>`
 
     modalContent.innerHTML = modalContentHTML
     modal.style.display = "flex";
@@ -34,7 +39,7 @@ function divCreateBooks(books) {
     const mainDiv = document.getElementById("main");
 
     const booksHTML = books.map((book) => {
-        const bookDataAtributte = Object.entries(book).map(([key, value]) => `data-book-${key}=${value}`).join(" ")
+        const bookDataAtributte = Object.entries(book).map(([key, value]) => `data-book-${key}="${value}"`).join(" ")
         return (
             `<section class="bigbottom">
             <h2>${book.title}</h2>
@@ -53,7 +58,6 @@ async function app() {
     const {
         books
     } = await getAllBooks();
-    console.log(books);
     divCreateBooks(books);
 };
 
