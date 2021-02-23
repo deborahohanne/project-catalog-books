@@ -18,7 +18,7 @@ git clone https://github.com/deborahohanne/project-catalog-books.git
 docker-compose build
 ```
 
-> - **Execute os containers**
+> - **Execute o container**
 ```
 docker-compose up
 ```
