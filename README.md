@@ -2,12 +2,12 @@
 ==============================
 
 ## Sobre
-Este projeto é um teste para o Instituto Eldorado.
+Este projeto é um teste para o Instituto de Pesquisas Eldorado.
 
 ### Como usar
 Este projeto foi desenvolvido em um ambiente configurado com os serviços oferecidos pelo Docker. 
 
-Para usar este projeto em sua máquina execute apenas quatro passos
+Para usar este projeto em sua máquina execute os quatro passos a seguir
 
 > - **Baixe o projeto**
 ```cmd

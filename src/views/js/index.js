@@ -24,7 +24,9 @@ function openCloseModal(book = '') {
     }
 
     const modalContentHTML = 
-        `<h2>Detalhes do Livro</h2>
+        `
+        <a href="" id="close">x</a>
+        <h2>Detalhes do Livro</h2>
         <h3>Título: ${book.bookTitle}</h3>
         <h3>Sub Título: ${book.bookSubtitle}</h3>
         <h3>Resumo: ${book.bookAbstract}</h3>
